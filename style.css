@@ -1,0 +1,28 @@
+:root {
+  --red-200: #ea868f;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding: 10%;
+}
+
+.container {
+  max-width: 80%;
+  min-height: 60vh;
+  border-radius: 20px;
+  background-color: #0b132b;
+}
+
+.list-group-item {
+  background-color: #afc1d6;
+}
+
+@media (max-width: 576px) {
+  .button__wrapper {
+    flex-direction: column;
+  }
+}
